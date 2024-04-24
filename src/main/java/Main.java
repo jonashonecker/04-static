@@ -19,5 +19,9 @@ public class Main {
         cc4.incrementInstanceCount();
         MyCoolClass.incrementTotalCount();
         System.out.println(cc4);
+
+        // Bonus
+        System.out.println(Calculator.add(5,5));
+        System.out.println(Calculator.subtract(3,3));
     }
 }
